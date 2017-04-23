@@ -169,9 +169,15 @@ a {
 	text-align: center;
 }
 
+.history h2 {
+  font-family: "Abril Fatface",Georgia, serif;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
 
-
-
+.history li {
+  line-height: 1.2em;
+}
 
 
 
