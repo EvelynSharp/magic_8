@@ -56,7 +56,7 @@ function generateAnswer() {
   var userQuestion = document.getElementById('userQuestion');
   var question = new Question(userQuestion.value);
   var magicAnswer = document.getElementById('magicAnswer');
-  var answerNum = Math.floor(Math.random()*6+1)
+  var answerNum = Math.floor(Math.random()*answers.length+1)
   var userString = userQuestion.value.toLowerCase();
   if (userString.includes('add_answer')){
     toAddAnswer(userQuestion.value);
